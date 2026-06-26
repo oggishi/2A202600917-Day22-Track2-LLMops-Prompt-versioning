@@ -1,0 +1,13 @@
+
+Traceback (most recent call last):
+  File "C:\D\Github\2A202600917-Day22-Track2-LLMops-Prompt-versioning-1\src\03_ragas_evaluation.py", line 31, in <module>
+    from ragas import evaluate, EvaluationDataset, SingleTurnSample
+  File "C:\D\Github\2A202600917-Day22-Track2-LLMops-Prompt-versioning-1\.venv\Lib\site-packages\ragas\__init__.py", line 5, in <module>
+    from ragas.evaluation import aevaluate, evaluate
+  File "C:\D\Github\2A202600917-Day22-Track2-LLMops-Prompt-versioning-1\.venv\Lib\site-packages\ragas\evaluation.py", line 31, in <module>
+    from ragas.llms import llm_factory
+  File "C:\D\Github\2A202600917-Day22-Track2-LLMops-Prompt-versioning-1\.venv\Lib\site-packages\ragas\llms\__init__.py", line 1, in <module>
+    from ragas.llms.base import (
+  File "C:\D\Github\2A202600917-Day22-Track2-LLMops-Prompt-versioning-1\.venv\Lib\site-packages\ragas\llms\base.py", line 12, in <module>
+    from langchain_community.chat_models.vertexai import ChatVertexAI
+ModuleNotFoundError: No module named 'langchain_community.chat_models.vertexai'
